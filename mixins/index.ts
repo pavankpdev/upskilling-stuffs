@@ -61,7 +61,6 @@ function Dumpable<T extends Constructor<BaseConstructorBody>>(Base: T) {
         }
     }
 }
-
 const DumpableStringDatabase = Dumpable(StringDatabase);
 const sbd2 = new DumpableStringDatabase();
 sbd2.set('kp', 'kp');
